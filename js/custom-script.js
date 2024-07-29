@@ -28,7 +28,7 @@
 
   //Smoothescroll sections script
   $(document).ready(function(){
-	$(".navbar ul li a").on('click', function(event) {
+	$(".navbar ul li a, .f-info li a").on('click', function(event) {
 	  event.preventDefault();
 	  var hash = this.hash;
 	  $('html, body').animate({
@@ -100,3 +100,33 @@ let yearspan = new Date();
 let currentYear = document.getElementById("currentYear");
 currentYear.innerHTML = yearspan.getFullYear();
 
+//Testimonials carousel
+
+$('.home-testimonials .owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    items:2,
+	margin:10,
+    lazyLoad: true,
+	autoplay:true,
+	navText: [
+        '<i class="ri-arrow-left-line"></i>',
+        '<i class="ri-arrow-right-line"></i>'
+    ],
+	autoplayTimeout: 5000,
+	smartSpeed: 1000,
+	responsive:{
+		0:{
+			items:1,
+			nav:true
+		},
+		600:{
+			items:1,
+			nav:false
+		},
+		1000:{
+			items:2,
+			nav:true
+		}
+	}
+})

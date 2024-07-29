@@ -125,22 +125,133 @@
 <!--about us end-->
 <!--home products start-->
 <section class="home-products common-padding" id="home-products">
-    <div class="container">
-        <h1>Home Products</h1>
+    <div class="row no-gutters row-bg">
+        <div class="col-lg-6">
+            <div class="home-products-box">
+                <img src="img/washing-powder.png" alt="washing powder">
+                <div class="product-content">
+                    <h1>Washing Powder</h1>
+
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-6">
+            <div class="home-products-box">
+                <img src="img/detergent-cake.png" alt="detergent cake">
+                <div class="product-content">
+                <h1>Coming soon</h1>     
+            </div>
+            </div> 
+        </div>
     </div>
 </section>
 <!--home products end-->
 <!--coming soon cta start-->
-<section class="coming-soon-cta" id="washing-tips">
-    <div class="container">
-        <h1>Coming Soon CTA</h1>
+<section class="coming-soon-cta common-padding" id="washing-tips">
+    <div class="custom_container">
+        <div class="step-wrap">
+                <div class="process-line"></div>
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="process-card ">
+                            <div class="box-icon">
+                                <img src="img/process_card_1.svg" alt="icon">
+                            </div>
+                            <div class="box-content">
+                                <div class="box-top">
+                                    <p class="box-number">Step - 01</p>
+                                    <h3 class="box-title">Schedule Your Service</h3>
+                                </div>
+                                <p class="box-text">Begin by scheduling your laundry service. You can choose from our convenient options</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="process-card active">
+                            <div class="box-icon">
+                                <img src="img/process_card_2.svg" alt="icon">
+                            </div>
+                            <div class="box-content">
+                                <div class="box-top">
+                                    <p class="box-number">Step - 02</p>
+                                    <h3 class="box-title">Expert Cleaning Process</h3>
+                                </div>
+                                <p class="box-text">Once we receive your laundry, our skilled team takes over. Your cloth are sorted based.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="process-card ">
+                            <div class="box-icon">
+                                <img src="img/process_card_3.svg" alt="icon">
+                            </div>
+                            <div class="box-content">
+                                <div class="box-top">
+                                    <p class="box-number">Step - 03</p>
+                                    <h3 class="box-title">Packaging and Delivery</h3>
+                                </div>
+                                <p class="box-text">We take pride in using eco-friendly packaging materials. If you've opted for our pickup.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </section>
 <!--coming soon cta end-->
 <!--testimonials start-->
-<section class="home-testimonials" id="testimonials">
-    <div class="container">
-        <h1>Testimonials</h1>
+<section class="home-testimonials common-padding" id="testimonials">
+    <div class="custom_container">
+        <div class="common-heading">
+            <h4 class="text-center mb-2">Testimonials</h4>
+            <h1 class="text-center">Our Clients Feedback</h1>
+        </div>
+        <div class="owl-carousel testimonial-main">
+	            <div class="item">
+	                <div class="testimonial-box d-flex">
+	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/82.jpg)">
+	                    </div>
+	                    <div class="text pl-4">
+	                        <span class="quote"><i class="ri-double-quotes-l"></i></span>
+	                        <p>This product is designed to effortlessly remove stains from even the most delicate fabrics without causing any harm. Its unique formula converts hard water into soft water, ensuring all dirt and stains are effectively removed. Additionally, it has a pleasant and mild fragrance that leaves clothes smelling fresh. The product is also gentle on hands, making it suitable for both bucket washing and use in washing machines.</p>
+	                        <p class="name mt-2">Vanya Mishra</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="item">
+	                <div class="testimonial-box d-flex">
+	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/83.jpg)">
+	                    </div>
+	                    <div class="text pl-4">
+	                        <span class="quote"><i class="ri-double-quotes-l"></i></span>
+	                        <p>Goldiee Double Engine has become my favorite detergent powder. I mostly wear white shirts, and it keeps them looking brighter. That's why I trust Goldie Double Engine.</p>
+	                        <p class="name mt-2">Shantanu Maheshwari</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="item">
+	                <div class="testimonial-box d-flex">
+	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/84.jpg)">
+	                    </div>
+	                    <div class="text pl-4">
+	                        <span class="quote"><i class="ri-double-quotes-l"></i></span>
+	                        <p>The price is very reasonable, and it does an excellent job of cleaning clothes. We use it for hand-washed clothes and have consistently gotten great results. The scent is pleasant as well. Highly recommended for washing clothes!</p>
+	                        <p class="name mt-2">Kavya Singh</p>
+	                    </div>
+	                </div>
+	            </div>
+                <div class="item">
+	                <div class="testimonial-box d-flex">
+	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/82.jpg)">
+	                    </div>
+	                    <div class="text pl-4">
+	                        <span class="quote"><i class="ri-double-quotes-l"></i></span>
+	                        <p>Goldiee Double Engine washing powder is amazing for its effective dirt removal. It's ideal for handwashing. All you must do is soak for 10 minutes to eliminate stains swiftly. Even for machine washing, we rely on Goldiee Double Engine Matic, perfectly compatible with all types of washing machines.</p>
+	                        <p class="name mt-2">Diya Bhatia</p>
+	                    </div>
+	                </div>
+	            </div>
+       </div>
     </div>
 </section>
 <!--testimonials end-->
@@ -154,7 +265,7 @@
 <!--footer start-->
 <footer id="tt-footer">
     <div class="footer-wrapper01 common-padding">
-        <div class="container container-fluid-xl">
+        <div class="custom_container container-fluid-xl">
             <div class="row f-col-wrapper">
                 <div class="col-md-4"><a href="javascript:void(0)" class="f-logo">
                     <img src="img/logo.png" alt="footer logo">
@@ -184,38 +295,32 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h6 class="f-title mb-3">Contacts</h6>
+                    <h6 class="f-title  mb-3">Quick Links</h6>
                     <ul class="f-info">
-                        <li class="mb-2"><i class="ri-map-pin-line"></i> 8494 Signal Hill Road Manassas, <br> VA, 20110</li>
-                        <li class="mb-2"><a href="mailto:info@yourlaundrysite.com"><i class="ri-mail-line"></i> info@yourlaundrysite.com</a></li>
-                        <li><a href="tel:1(800)765-43-21"><i class="ri-phone-line"></i> 1 (800) 765-43-21</a></li>
+                        <li class="mb-2"> <a href="#hero-wrapper">Home</a></li>
+                        <li class="mb-2"> <a href="#about-us">About Us</a></li>
+                        <li class="mb-2"> <a href="#home-products">Products</a></li>
+                        <li class="mb-2"> <a href="#washing-tips">Easy Washing Tips</a></li>
+                        <li> <a href="#testimonials">Testimonials</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h6 class="f-title  mb-3">Reach Us</h6>
-                    <form id="subscribeform" method="post" novalidate="novalidate" action="#">
-                        <div class="f-form">
-                            <div class="f-form__label">Sign up and receive our special offers.</div>
-                            <div class="f-form__input">
-                                <input type="text" name="email" class="form-control" placeholder="Your e-mail address">
-                            </div>
-                            <div class="f-form__btn">
-                                <div class="tt-btn"><span class="mask">Subscribe now</span>
-                                    <button class="button" type="submit">Subscribe now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                    <h6 class="f-title mb-3">Contact Us</h6>
+                    <ul class="f-info">
+                        <li class="mb-2"><i class="ri-map-pin-line"></i> Shubham Goldiee Masale (P) Ltd., Corporate Head office- "Goldiee House" 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) PIN-208022</li>
+                        <li class="mb-2"><a href="mailto:customercare@goldiee.com"><i class="ri-mail-line"></i>customercare@goldiee.com</a></li>
+                        <li><a href="tel:1800 123 201 201"><i class="ri-phone-line"></i> 1800 123 201 201</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container container-fluid-xl">
+    <div class="custom_container container-fluid-xl">
         <div class="f-holder">
             <div class="f-copyright">© <span id="currentYear"></span>  doubleengine. All Rights Reserved.</div>
             <ul class="f-link">
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Designed By : </a></li>
+                <li><a href="https://www.digitallatte.in/" target="_blank">Digitallatte</a></li>
             </ul>
         </div>
     </div>
