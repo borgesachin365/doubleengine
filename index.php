@@ -10,9 +10,10 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>   
 <!--hero wrapper start-->    
@@ -21,7 +22,7 @@
 <div class="home-main-slider">
     <div class="owl-carousel hero-banner owl-theme">
         <div class="item">
-            <img src="img/hero_overlay_1.png" alt="images not found" class="parallaxSection">
+            <img src="img/hero-banner1.png" alt="images not found">
             <div class="cover">
                 <div class="custom_container">
                     <div class="header-content">
@@ -32,23 +33,23 @@
             </div>
         </div>                    
         <div class="item">
-            <img src="img/hero_overlay_1.png" alt="images not found" class="parallaxSection">
+            <img src="img/hero-banner2.png" alt="images not found">
             <div class="cover">
                 <div class="custom_container">
                     <div class="header-content">
-                        <h2>One-Stop solution for</h2>
-                        <h1>whiter <br> clothes</h1>
+                        <h2>The BFF your</h2>
+                        <h1>clothes <br> deserve</h1>
                     </div>
                 </div>
             </div>
         </div>                
         <div class="item">
-            <img src="img/hero_overlay_1.png" alt="images not found" class="parallaxSection">
+            <img src="img/hero-banner3.png" alt="images not found">
             <div class="cover">
                 <div class="custom_container">
                     <div class="header-content">
-                        <h2>One-Stop solution for</h2>
-                        <h1>whiter <br> clothes</h1>
+                        <h2>Keeps your clothes</h2>
+                        <h1>sparkling <br> clean</h1>
                     </div>
                 </div>
             </div>
@@ -76,7 +77,7 @@
 <section class="about-us common-padding" id="about-us">
     <div class="custom_container">
         <div class="row">
-            <div class="col-xl-6 wow fadeInLeft">
+            <div class="col-xl-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="img-box1">
                     <div class="img1">
                         <img src="img/about_1.jpg" alt="About">
@@ -104,19 +105,6 @@
                         Your Laundry BFF for a cleaner, brighter, and easier laundry experience."	        
                         </p>
                     </div>
-                    <!-- <div class="checklist list-two-column">
-                        <ul>
-                            <li>Pickup and Delivery Service</li>
-                            <li>Energy-Efficient Machines</li>
-                            <li>Same-Day or Express Service</li>
-                            <li>Folding Preferences</li>
-                            <li>Hanging or Bagging Options</li>
-                            <li>Satisfaction Guarantee</li>
-                        </ul>
-                    </div>
-                    <div class="btn-group mt-30 justify-content-start">
-                        <a href="about.html" class="th-btn">More About Us</a>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -125,22 +113,27 @@
 <!--about us end-->
 <!--home products start-->
 <section class="home-products common-padding" id="home-products">
-    <div class="row no-gutters row-bg">
-        <div class="col-lg-6">
+    <div class="custom_container">
+        <div class="common-heading">
+            <h4 class="text-center mb-2">Products</h4>
+            <h1 class="text-center">Our Washing Products</h1>
+        </div>
+        <div class="home-product-box-grid mt-70">
             <div class="home-products-box">
-                <img src="img/washing-powder.png" alt="washing powder">
+                <div class="product-img">
+                    <img src="img/washing-powder.png" alt="washing powder">
+                </div>
                 <div class="product-content">
                     <h1>Washing Powder</h1>
-
                 </div>
             </div> 
-        </div>
-        <div class="col-lg-6">
             <div class="home-products-box">
-                <img src="img/detergent-cake.png" alt="detergent cake">
+                <div class="product-img">
+                    <img src="img/detergent-cake.png" alt="detergent cake">
+                </div>    
                 <div class="product-content">
-                <h1>Coming soon</h1>     
-            </div>
+                    <h1>Coming soon</h1>     
+                </div>
             </div> 
         </div>
     </div>
@@ -149,6 +142,10 @@
 <!--coming soon cta start-->
 <section class="coming-soon-cta common-padding" id="washing-tips">
     <div class="custom_container">
+        <div class="common-heading">
+            <h4 class="text-center mb-2">How To Use</h4>
+            <h1 class="text-center">Easy Washing Tips</h1>
+        </div>
         <div class="step-wrap">
                 <div class="process-line"></div>
                 <div class="row gy-4 justify-content-center">
@@ -206,7 +203,7 @@
             <h4 class="text-center mb-2">Testimonials</h4>
             <h1 class="text-center">Our Clients Feedback</h1>
         </div>
-        <div class="owl-carousel testimonial-main">
+        <div class="owl-carousel testimonial-main mt-70">
 	            <div class="item">
 	                <div class="testimonial-box d-flex">
 	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/82.jpg)">
@@ -256,11 +253,11 @@
 </section>
 <!--testimonials end-->
 <!--follow us start-->
-<section class="follow-us">
+<!-- <section class="follow-us">
     <div class="container">
         <h1>Follow Us</h1>
     </div>
-</section>
+</section> -->
 <!--follow us end-->
 <!--footer start-->
 <footer id="tt-footer">
@@ -353,6 +350,8 @@
 <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
 <!--Parallax Scrolling scripts-->
 <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+<!--Aos Animation--->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!--Custom script-->
 <script src="js/custom-script.js"></script>    
 </body>

@@ -101,10 +101,10 @@ let currentYear = document.getElementById("currentYear");
 currentYear.innerHTML = yearspan.getFullYear();
 
 //Testimonials carousel
-
 $('.home-testimonials .owl-carousel').owlCarousel({
     loop:true,
     nav:false,
+	dots:false,
     items:2,
 	margin:10,
     lazyLoad: true,
@@ -130,3 +130,6 @@ $('.home-testimonials .owl-carousel').owlCarousel({
 		}
 	}
 })
+
+//Aos Animation
+  AOS.init();

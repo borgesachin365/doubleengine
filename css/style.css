@@ -55,7 +55,9 @@ p {
   max-width: 70%;
   margin: 0 auto;
 }
-
+.mt-70{
+  margin-top: 70px;
+}
 .hero-anime {
   width: 100%;
   height: var(--wrapperheight);
@@ -109,6 +111,7 @@ p {
   padding: 10px 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  height: 85px;
 }
 .start-header.scroll-on .navbar-brand img {
   width: 70%;
@@ -128,6 +131,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #efeef7;
+  height: var(--wrapperheight);
 }
 
 .navbar {
@@ -135,7 +139,7 @@ p {
 }
 
 .navbar-brand {
-  width: 8%;
+  width: 9%;
   padding: 0;
 }
 .navbar-brand img {
@@ -600,6 +604,12 @@ p {
   margin-bottom: 46px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  cursor: pointer;
+}
+.about-us .img-box1:hover .img2:after{
+  left: 8px;
+  top: 8px;
+  transition: all 0.4s ease;
 }
 .about-us .img-box1 .img1 {
   text-align: center;
@@ -626,8 +636,9 @@ p {
   z-index: -1;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  -webkit-animation: spin 7s infinite;
-  animation: spin 7s infinite;
+  /* -webkit-animation: spin 7s infinite;
+  animation: spin 7s infinite; */
+  transition: all 0.4s ease;
 }
 .about-us .img-box1 .img2 img {
   width: 210px;
@@ -908,7 +919,6 @@ hr.title-line {
 }
 .about-desc{
   font-family: "Nunito Sans", sans-serif;
-    margin: 0 0 18px 0;
     color: #788094;
     line-height: 1.75;
   
@@ -1130,28 +1140,51 @@ hr.title-line {
 /*******************product section css********************/
 .home-products{
   width: 100%;
+  background-image: url("../img/product-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.row-bg{
+/* .row-bg{
   background-image: url(https://websmirno.site/viktor/prolaundry/images/box02-img01.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
+ .home-product-box-grid{
+  width: 100%;
+  display: grid;
+  display: grid;
+  grid-auto-rows: 560px;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-gap: 2em;
+ }
 .home-products-box{
   background-color: #2f2483f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10% 0;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
 }
-.home-products-box:nth-child(1){
-  border-right: 1px solid #fff;
+.home-products-box::before{
+  position: absolute;
+  content: url(../img/bg-shape.png);
+  left: -70px;
+  top: 22px;
+  transform: scale(1.1);
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.4);
 }
-.home-products-box img{
-  width: 30%;
-  filter: drop-shadow(1px 1px 6px #fff);
+.product-img{
+  background-color: #2f2483f5;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87%;
+}
+.home-products-box .product-img img{
+  width: 38%;
+  filter: drop-shadow(1px 1px 6px #000);
   transition: all 0.5s ease;
 }
 .product-content{
@@ -1163,6 +1196,7 @@ hr.title-line {
   align-items: center;
   bottom: 0;
   transition: all 0.5s ease;
+  height: 13%;
 }
 .home-products-box:hover .product-content{
   background-color: #2f2483f5;
@@ -1741,15 +1775,15 @@ hr.title-line {
 /**************************************Home testimonials css******************************************/
 .home-testimonials{
   width: 100%;
-  background-color: #efeef7;
+  background: linear-gradient(rgb(137 122 253 / 93%), rgb(239 238 247 / 94%)), url(../img/testimonial-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .testimonial-box {
   display: block;
   position: relative;
   padding: 50px 20px 0 20px;
-}
-.testimonial-main{
-  margin-top: 90px;
 }
 .testimonial-box p{
   font-size: 16px;
@@ -1771,7 +1805,7 @@ padding: 30px 10px;
 .quote {
   position: absolute;
   top: -15px;
-  color: #8a7bff;
+  color: #322785;
   font-size: 40px;
 }
 .name {
@@ -1785,9 +1819,35 @@ padding: 30px 10px;
 color: #adadad;
 font-size: 14px;
 }
+.home-testimonials .owl-carousel .owl-nav{
+  text-align: center;
+}
+.home-testimonials .owl-carousel .owl-nav .owl-prev,.home-testimonials .owl-carousel .owl-nav .owl-next{
+  background-color:#8a7bff;
+  border-radius: 50px;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  font-size: 22px;
+  transition: all 0.5s ease;
+  border: 1px solid #8a7bff;
+}
+.home-testimonials .owl-carousel .owl-nav .owl-prev,.home-testimonials .owl-carousel .owl-nav .owl-next:focus{
+  outline: none;
+}
+.home-testimonials .owl-carousel .owl-nav .owl-prev:hover,
+.home-testimonials .owl-carousel .owl-nav .owl-next:hover{
+  background-color: #fff;
+  color:#8a7bff;
+  transition: all 0.5s ease;
+}
+.home-testimonials .owl-carousel .owl-nav .owl-next{
+  margin-left: 12px;
+}
 /**************************************easy washing tips css******************************************/
 .step-wrap {
   position: relative;
+  margin: 125px 0;
 }
 
 .step-wrap .process-line {
@@ -1901,6 +1961,8 @@ font-size: 14px;
   margin-bottom: 8px;
   margin-top: -0.45em;
   font-family: "Nunito Sans", sans-serif;
+  color: #352a86;
+  font-weight: 700;
 }
 .process-card .box-text {
 
