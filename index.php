@@ -94,9 +94,13 @@
             <div class="col-xl-6">
                 <div class="ps-xl-4 wow fadeInRight">
                     <div class="title-area mb-25">
-                        <span class="sub-title style1">About Us</span>
-                        <h2 class="sec-title mb-20">Experience the Pinnacle <br> of Laundry Excellence</h2>
-                        <p class="about-desc">"From the house of Goldiee: Innovation meets care to bring you Goldiee Double Engine - your ultimate laundry BFF! We understand the time constraints of modern life, especially for busy families, working couples, and homemakers. Hence we created Goldiee Double Engine, a powerful detergent that delivers machine-quality cleaning at a bucket-wash price.
+                        <!-- <span class="sub-title style1" data-aos="fade-up" data-aos-duration="600">About Us</span>
+                        <h2 class="sec-title mb-20" data-aos="fade-up" data-aos-duration="700">Experience the Pinnacle <br> of Laundry Excellence</h2> -->
+                        <div class="common-heading">
+                            <h4 class="heading-title title-right-line mb-2 justify-content-start" data-aos="fade-up" data-aos-duration="600">About Us</h4>
+                            <h1 class="text-left mb-3" data-aos="fade-up" data-aos-duration="1000">Experience the Pinnacle <br> of Laundry Excellence</h1>
+                        </div>
+                        <p class="about-desc" data-aos="fade-up" data-aos-duration="800">"From the house of Goldiee: Innovation meets care to bring you Goldiee Double Engine - your ultimate laundry BFF! We understand the time constraints of modern life, especially for busy families, working couples, and homemakers. Hence we created Goldiee Double Engine, a powerful detergent that delivers machine-quality cleaning at a bucket-wash price.
                             <br>
                         Goldiee Double Engine takes the hassle out of laundry. Its concentrated formula requires less detergent, saving you money and simplifying the process. This innovative detergent also tackles tough stains and dirt effectively, leaving your clothes clean, fresh, and smelling delightful thanks to our captivating European fragrances.
                             <br>
@@ -115,11 +119,11 @@
 <section class="home-products common-padding" id="home-products">
     <div class="custom_container">
         <div class="common-heading">
-            <h4 class="text-center mb-2">Products</h4>
-            <h1 class="text-center">Our Washing Products</h1>
+            <h4 class="heading-title title-center-line mb-2" data-aos="fade-up" data-aos-duration="600">Products</h4>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Our Washing Products</h1>
         </div>
         <div class="home-product-box-grid mt-70">
-            <div class="home-products-box">
+            <div class="home-products-box" data-aos="fade-up" data-aos-duration="800">
                 <div class="product-img">
                     <img src="img/washing-powder.png" alt="washing powder">
                 </div>
@@ -127,7 +131,7 @@
                     <h1>Washing Powder</h1>
                 </div>
             </div> 
-            <div class="home-products-box">
+            <div class="home-products-box" data-aos="fade-up" data-aos-duration="1000">
                 <div class="product-img">
                     <img src="img/detergent-cake.png" alt="detergent cake">
                 </div>    
@@ -143,13 +147,13 @@
 <section class="coming-soon-cta common-padding" id="washing-tips">
     <div class="custom_container">
         <div class="common-heading">
-            <h4 class="text-center mb-2">How To Use</h4>
-            <h1 class="text-center">Easy Washing Tips</h1>
+            <h4 class="heading-title title-center-line mb-2" data-aos="fade-up" data-aos-duration="600">How To Use</h4>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Easy Washing Tips</h1>
         </div>
         <div class="step-wrap">
                 <div class="process-line"></div>
                 <div class="row gy-4 justify-content-center">
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1000">
                         <div class="process-card ">
                             <div class="box-icon">
                                 <img src="img/process_card_1.svg" alt="icon">
@@ -157,13 +161,13 @@
                             <div class="box-content">
                                 <div class="box-top">
                                     <p class="box-number">Step - 01</p>
-                                    <h3 class="box-title">Schedule Your Service</h3>
+                                    <h3 class="box-title">Schedule Your <br> Service</h3>
                                 </div>
                                 <p class="box-text">Begin by scheduling your laundry service. You can choose from our convenient options</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="1500">
                         <div class="process-card active">
                             <div class="box-icon">
                                 <img src="img/process_card_2.svg" alt="icon">
@@ -177,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6" data-aos="flip-left" data-aos-duration="2000">
                         <div class="process-card ">
                             <div class="box-icon">
                                 <img src="img/process_card_3.svg" alt="icon">
@@ -200,10 +204,10 @@
 <section class="home-testimonials common-padding" id="testimonials">
     <div class="custom_container">
         <div class="common-heading">
-            <h4 class="text-center mb-2">Testimonials</h4>
-            <h1 class="text-center">Our Clients Feedback</h1>
+            <h4 class="heading-title title-center-line mb-2" data-aos="fade-up" data-aos-duration="600">Testimonials</h4>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Our Clients Feedback</h1>
         </div>
-        <div class="owl-carousel testimonial-main mt-70">
+        <div class="owl-carousel testimonial-main mt-70" data-aos="fade-up" data-aos-duration="1500">
 	            <div class="item">
 	                <div class="testimonial-box d-flex">
 	                    <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/82.jpg)">
@@ -264,27 +268,28 @@
     <div class="footer-wrapper01 common-padding">
         <div class="custom_container container-fluid-xl">
             <div class="row f-col-wrapper">
-                <div class="col-md-4"><a href="javascript:void(0)" class="f-logo">
+                <div class="col-md-4">
+                <a href="javascript:void(0)" class="f-logo" data-aos="fade-up" data-aos-duration="600">
                     <img src="img/logo.png" alt="footer logo">
                 </a>
-                    <div class="f-text">From the house of Goldiee: Innovation meets care to bring you Goldiee Double Engine - your ultimate laundry BFF! We understand the time constraints of modern life, especially for busy families, working couples, and homemakers.</div>
+                    <div class="f-text" data-aos="fade-up" data-aos-duration="1000">From the house of Goldiee: Innovation meets care to bring you Goldiee Double Engine - your ultimate laundry BFF! We understand the time constraints of modern life, especially for busy families, working couples, and homemakers.</div>
                     <ul class="f-social">
-                        <li>
+                        <li data-aos="fade-up" data-aos-duration="1200">
                             <a href="javascript:void(0)" target="_blank">
                                 <i class="ri-twitter-x-fill"></i>
                             </a>
                         </li>
-                        <li>
+                        <li data-aos="fade-up" data-aos-duration="1300">
                             <a href="javascript:void(0)" target="_blank">
                                 <i class="ri-facebook-fill"></i>
                             </a>
                         </li>
-                        <li>
+                        <li data-aos="fade-up" data-aos-duration="1400">
                             <a href="javascript:void(0)" target="_blank">
                                 <i class="ri-linkedin-fill"></i>
                             </a>
                         </li>
-                        <li>
+                        <li data-aos="fade-up" data-aos-duration="1500">
                             <a href="javascript:void(0)" target="_blank">
                                 <i class="ri-instagram-line"></i>
                             </a>
@@ -292,21 +297,21 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h6 class="f-title  mb-3">Quick Links</h6>
+                    <h6 class="f-title  mb-3" data-aos="fade-up" data-aos-duration="600">Quick Links</h6>
                     <ul class="f-info">
-                        <li class="mb-2"> <a href="#hero-wrapper">Home</a></li>
-                        <li class="mb-2"> <a href="#about-us">About Us</a></li>
-                        <li class="mb-2"> <a href="#home-products">Products</a></li>
-                        <li class="mb-2"> <a href="#washing-tips">Easy Washing Tips</a></li>
-                        <li> <a href="#testimonials">Testimonials</a></li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1000"> <a href="#hero-wrapper">Home</a></li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1100"> <a href="#about-us">About Us</a></li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1200"> <a href="#home-products">Products</a></li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1300"> <a href="#washing-tips">Easy Washing Tips</a></li>
+                        <li data-aos="fade-up" data-aos-duration="1400"> <a href="#testimonials">Testimonials</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h6 class="f-title mb-3">Contact Us</h6>
+                    <h6 class="f-title mb-3" data-aos="fade-up" data-aos-duration="600">Contact Us</h6>
                     <ul class="f-info">
-                        <li class="mb-2"><i class="ri-map-pin-line"></i> Shubham Goldiee Masale (P) Ltd., Corporate Head office- "Goldiee House" 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) PIN-208022</li>
-                        <li class="mb-2"><a href="mailto:customercare@goldiee.com"><i class="ri-mail-line"></i>customercare@goldiee.com</a></li>
-                        <li><a href="tel:1800 123 201 201"><i class="ri-phone-line"></i> 1800 123 201 201</a></li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1000"><i class="ri-map-pin-line"></i> Shubham Goldiee Masale (P) Ltd., Corporate Head office- "Goldiee House" 194 B Industrial Area, Dada Nagar, Kanpur (U.P.) PIN-208022</li>
+                        <li class="mb-2" data-aos="fade-up" data-aos-duration="1100"><a href="mailto:customercare@goldiee.com"><i class="ri-mail-line"></i>customercare@goldiee.com</a></li>
+                        <li data-aos="fade-up" data-aos-duration="1200"><a href="tel:1800 123 201 201"><i class="ri-phone-line"></i> 1800 123 201 201</a></li>
                     </ul>
                 </div>
             </div>
