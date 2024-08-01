@@ -108,7 +108,7 @@ $('.home-testimonials .owl-carousel').owlCarousel({
     items:2,
 	margin:10,
     lazyLoad: true,
-	autoplay:true,
+	autoplay:false,
 	navText: [
         '<i class="ri-arrow-left-line"></i>',
         '<i class="ri-arrow-right-line"></i>'
@@ -124,7 +124,11 @@ $('.home-testimonials .owl-carousel').owlCarousel({
 			items:1,
 			nav:false
 		},
-		1000:{
+		1280:{
+			items:1,
+			nav:true
+		},
+		1281:{
 			items:2,
 			nav:true
 		}
